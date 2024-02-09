@@ -42,9 +42,6 @@ ol {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-decoration: none;
-  margin-left: 156px;
-  margin-right: 76px;
-  margin-bottom: 16px;
 }
 
 .logo-studio {
@@ -67,7 +64,7 @@ ol {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-decoration: none;
-  margin-right: 76px;
+  padding-right: 76px;
 }
 /* #endregion */
 
@@ -124,7 +121,6 @@ ol {
   text-decoration: none;
   font-weight: 500;
   letter-spacing: 0.02em;
-  padding: 24px 0;
 }
 
 .button-link:hover {
@@ -171,6 +167,7 @@ ol {
   letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
+  margin: 0;
 }
 
 .button-adress:hover {
@@ -290,6 +287,10 @@ img {
   align-items: center;
 }
 
+.navigation a {
+  margin: 0;
+}
+
 .logotype {
   margin-right: 76px;
 }
@@ -297,6 +298,7 @@ img {
 .menu {
   display: flex;
   gap: 40px;
+  padding-right: 332px;
 }
 
 .menu-link {
@@ -306,6 +308,10 @@ img {
 .contacts-items {
   display: flex;
   gap: 40px;
+}
+
+.contacts-items a {
+  font-weight: normal;
 }
 
 .section-feautures {
@@ -371,4 +377,7 @@ img {
   margin-bottom: 16px;
 }
 
+.footer-bg a {
+  margin: 0;
+}
 /* #endregion */
