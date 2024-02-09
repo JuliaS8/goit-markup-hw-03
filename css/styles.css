@@ -96,9 +96,6 @@ img {
   margin-right: 76px;
 }
 
-.logotype {
-  margin-right: 76px;
-}
 /* #endregion */
 
 /* #region header */
@@ -116,7 +113,7 @@ img {
 }
 
 .navigation a {
-  margin: 0;
+  margin: 0 76px 0 0;
 }
 
 .menu {
@@ -126,6 +123,10 @@ img {
 }
 
 .menu-link {
+  padding: 24px 0;
+}
+
+.menu-link a {
   padding: 24px 0;
 }
 
@@ -219,7 +220,7 @@ img {
 /* #endregion */
 
 /* #region address */
-.button-adress {
+.button-address {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -317,7 +318,7 @@ img {
   padding: 32px 0;
 }
 
-.member-dposition {
+.member-position {
   font-size: 16px;
   letter-spacing: 0.02em;
   text-align: center;
@@ -327,12 +328,6 @@ img {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   background: var(--WHITE, #fff);
-}
-
-.cards-border {
-  padding: 30px 16px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
 }
 
 /* #endregion */
@@ -365,6 +360,12 @@ img {
 
 .portfolio-cards {
   width: calc((100% - 48px) / 3);
+}
+
+.cards-border {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 /* #endregion */
 
