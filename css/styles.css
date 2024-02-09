@@ -38,6 +38,8 @@ ol {
   text-decoration: none;
   margin-left: 156px;
   margin-right: 76px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .logo-studio {
@@ -356,11 +358,6 @@ img {
 .footer-bg {
   background-color: #2e2f42;
   padding: 100px 0;
-}
-
-.link-footer {
-  display: inline-block;
-  margin-bottom: 16px;
 }
 
 /* #endregion */
