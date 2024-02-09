@@ -273,6 +273,10 @@ img {
   padding: 0 15px;
 }
 
+.container .header-div {
+  padding: ;
+}
+
 .header-div {
   display: flex;
 }
@@ -364,6 +368,7 @@ img {
 
 .footer-bg .logo-web {
   display: inline-block;
+  margin-bottom: 16px;
 }
 
 /* #endregion */
