@@ -124,6 +124,7 @@ ol {
   text-decoration: none;
   font-weight: 500;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .button-link:hover {
@@ -242,8 +243,10 @@ ol {
   background: var(--WHITE, #fff);
 }
 
-.member-name-position {
-  padding: 30px 0;
+.cards-border {
+  padding: 30px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 /* #endregion */
 
@@ -301,10 +304,6 @@ img {
   gap: 40px;
 }
 
-.header-content {
-  border-bottom: 1px solid #e7e9fc;
-}
-
 .section-feautures {
   padding: 120px 0;
 }
@@ -348,16 +347,14 @@ img {
 }
 
 .member-name-position {
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
+  padding: 32px 0;
 }
 
 /* #region footer */
 .footer {
   color: #f4f4fd;
   letter-spacing: 0.02em;
-  min-width: 264px;
+  width: 264px;
 }
 
 .footer-bg {
