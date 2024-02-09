@@ -26,10 +26,38 @@ ol {
   list-style-type: none;
 }
 
+img {
+  display: block;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1158px;
+  padding: 0 15px;
+}
+
+.main-title {
+  background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 293px;
+  text-align: center;
+  padding: 188px 0;
+}
+
 .main-title .container {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.home-title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  max-width: 496px;
 }
 
 /* #region logo */
@@ -53,6 +81,7 @@ ol {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-decoration: none;
+  margin-right: 76px;
 }
 
 .logo-studio-header {
@@ -64,27 +93,56 @@ ol {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-decoration: none;
-  padding-right: 76px;
+  margin-right: 76px;
+}
+
+.logotype {
+  margin-right: 76px;
 }
 /* #endregion */
 
-.main-title {
-  background-color: #2e2f42;
-  padding-top: 188px;
-  padding-bottom: 293px;
-  text-align: center;
-  padding: 188px 0;
+/* #region header */
+.header-div {
+  display: flex;
 }
 
-.home-title {
-  color: #fff;
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
-  text-align: center;
-  letter-spacing: 0.02em;
-  max-width: 496px;
+.header-content {
+  border-bottom: 1px solid #e7e9fc;
 }
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.navigation a {
+  margin: 0;
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
+  padding-right: 332px;
+}
+
+.menu-link {
+  padding: 24px 0;
+}
+
+.container .header-div {
+  padding: ;
+}
+
+.contacts-items {
+  display: flex;
+  gap: 40px;
+}
+
+.contacts-items a {
+  font-weight: normal;
+}
+
+/* #endregion */
 
 /* #region button */
 .button {
@@ -160,7 +218,7 @@ ol {
 
 /* #endregion */
 
-/* #region adress */
+/* #region address */
 .button-adress {
   font-size: 16px;
   line-height: 1.5;
@@ -184,7 +242,8 @@ ol {
 
 /* #endregion */
 
-.feautures-title {
+/* #region features */
+.features-title {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -192,8 +251,34 @@ ol {
   margin-bottom: 8px;
 }
 
-.feautures-text {
+.features-text {
   letter-spacing: 0.02em;
+}
+
+.section-features {
+  padding: 120px 0;
+}
+
+.features {
+  display: flex;
+  gap: 24px;
+}
+
+.features-item {
+  width: calc((100% - 72px) / 4);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .container-title {
@@ -207,7 +292,7 @@ ol {
   margin-bottom: 72px;
 }
 
-/* #region section3 */
+/* #region team members */
 .team-bg {
   background-color: #f4f4fd;
   height: 732px;
@@ -228,6 +313,10 @@ ol {
   margin-bottom: 8px;
 }
 
+.member-name-position {
+  padding: 32px 0;
+}
+
 .member-dposition {
   font-size: 16px;
   letter-spacing: 0.02em;
@@ -245,8 +334,10 @@ ol {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
+
 /* #endregion */
 
+/* region apps */
 .developed-apps {
   font-weight: 500;
   line-height: 1.2;
@@ -258,86 +349,6 @@ ol {
 
 .apps-text {
   letter-spacing: 0.02em;
-}
-
-img {
-  display: block;
-}
-
-.container {
-  margin: 0 auto;
-  width: 1158px;
-  padding: 0 15px;
-}
-
-.container .header-div {
-  padding: ;
-}
-
-.header-div {
-  display: flex;
-}
-
-.header-content {
-  border-bottom: 1px solid #e7e9fc;
-}
-
-.navigation {
-  display: flex;
-  align-items: center;
-}
-
-.navigation a {
-  margin: 0;
-}
-
-.logotype {
-  margin-right: 76px;
-}
-
-.menu {
-  display: flex;
-  gap: 40px;
-  padding-right: 332px;
-}
-
-.menu-link {
-  padding: 24px 0;
-}
-
-.contacts-items {
-  display: flex;
-  gap: 40px;
-}
-
-.contacts-items a {
-  font-weight: normal;
-}
-
-.section-feautures {
-  padding: 120px 0;
-}
-
-.feautures {
-  display: flex;
-  gap: 24px;
-}
-
-.feautures-item {
-  width: calc((100% - 72px) / 4);
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }
 
 .portfolio {
@@ -355,10 +366,7 @@ img {
 .portfolio-cards {
   width: calc((100% - 48px) / 3);
 }
-
-.member-name-position {
-  padding: 32px 0;
-}
+/* #endregion */
 
 /* #region footer */
 .footer {
