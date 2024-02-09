@@ -26,6 +26,12 @@ ol {
   list-style-type: none;
 }
 
+.main-title .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /* #region logo */
 .logo-web {
   color: #4d5ae5;
@@ -38,7 +44,6 @@ ol {
   text-decoration: none;
   margin-left: 156px;
   margin-right: 76px;
-  display: inline-block;
   margin-bottom: 16px;
 }
 
@@ -358,6 +363,10 @@ img {
 .footer-bg {
   background-color: #2e2f42;
   padding: 100px 0;
+}
+
+.footer-bg .logo-web {
+  display: inline-block;
 }
 
 /* #endregion */
