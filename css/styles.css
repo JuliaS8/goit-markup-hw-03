@@ -112,10 +112,6 @@ img {
   align-items: center;
 }
 
-.navigation a {
-  margin: 0 76px 0 0;
-}
-
 .menu {
   display: flex;
   gap: 40px;
@@ -229,15 +225,15 @@ img {
   margin: 0;
 }
 
-.button-adress:hover {
+.button-address:hover {
   color: #404bbf;
 }
 
-.button-adress:active {
+.button-address:active {
   color: #404bbf;
 }
 
-.button-adress:focus {
+.button-address:focus {
   color: #404bbf;
 }
 
@@ -367,6 +363,7 @@ img {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
+
 /* #endregion */
 
 /* #region footer */
