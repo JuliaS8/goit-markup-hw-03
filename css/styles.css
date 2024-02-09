@@ -60,6 +60,7 @@ ol {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-decoration: none;
+  margin-right: 76px;
 }
 /* #endregion */
 
@@ -137,6 +138,7 @@ ol {
   font-weight: 500;
   letter-spacing: 0.02em;
   font-style: normal;
+  padding-top: 24px;
 }
 
 .button-links {
@@ -261,12 +263,12 @@ img {
   padding: 0 15px;
 }
 
-.header-content {
-  border-bottom: 1px solid #e7e9fc;
-}
-
 .header-div {
   display: flex;
+}
+
+.header-content {
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .navigation {
